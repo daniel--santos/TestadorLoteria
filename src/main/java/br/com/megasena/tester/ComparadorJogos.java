@@ -1,5 +1,9 @@
 package br.com.megasena.tester;
 
+import br.com.megasena.tester.model.Bolao;
+import br.com.megasena.tester.model.Jogo;
+import br.com.megasena.tester.model.Resultado;
+
 import java.util.ArrayList;
 import java.util.List;
 

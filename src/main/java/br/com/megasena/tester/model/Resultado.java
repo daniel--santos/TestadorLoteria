@@ -1,4 +1,4 @@
-package br.com.megasena.tester;
+package br.com.megasena.tester.model;
 
 public class Resultado {
     private String nomeBolao;

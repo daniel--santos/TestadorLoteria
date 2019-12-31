@@ -1,5 +1,8 @@
 package br.com.megasena.tester;
 
+import br.com.megasena.tester.model.Bolao;
+import br.com.megasena.tester.model.Jogo;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -75,4 +78,9 @@ public class BoloesCache {
     public static List<Bolao> getBolaos() {
         return bolaos;
     }
+
+    public static Bolao getBolao(String nomeBolao) {
+        return bolaos.stream().filter(b -> b.getNome().equals(nomeBolao)).findFirst().get();
+    }
+
 }
