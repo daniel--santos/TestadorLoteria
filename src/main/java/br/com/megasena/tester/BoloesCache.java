@@ -43,6 +43,28 @@ public class BoloesCache {
         Bolao bolaoTiago = new Bolao("Tiago");
         bolaoTiago.adionarJogo(new Jogo(Arrays.asList(2,5,7,16,17,27,28,50)));//8
 
+        Bolao bolaoSergio = new Bolao("Sérgio");
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(2,11,15,22,28,47,54), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(11,15,16,22,24,43,60), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(4,11,14,22,37,45,56), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(2,4,28,44,46,54,56), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(2,16,24,28,42,54,60), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(3,15,22,28,33,50,54), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(2,6,20,32,46,50,54), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(6,11,14,20,23,24,43), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(11,14,17,23,28,42,56), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(17,24,30,42,45,47,48), true));//7
+
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(3,12,21,23,28,37,43), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(6,7,17,27,40,42,59), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(3,14,33,36,39,42,50), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(12,23,24,33,37,38,58), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(2,4,23,24,25,44,48), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(9,13,20,24,25,43,44), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(8,12,14,17,28,31,60), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(7,24,26,28,40,49,51), true));//7
+        bolaoSergio.adionarJogo(new Jogo(Arrays.asList(12,15,16,30,43,50,51), true));//7
+
         //Adicionando os boloes
         bolaos.add(bolaoMartinez);
         bolaos.add(bolaoTrabalho);
