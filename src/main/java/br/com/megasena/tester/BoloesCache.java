@@ -69,6 +69,7 @@ public class BoloesCache {
         bolaos.add(bolaoMartinez);
         bolaos.add(bolaoTrabalho);
         bolaos.add(bolaoTiago);
+        bolaos.add(bolaoSergio);
     }
 
     public static List<Bolao> getBolaos() {
