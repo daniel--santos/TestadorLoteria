@@ -36,6 +36,6 @@ public class HTMLWrapper {
     }
 
     public static String montarSaidaResultadoAindaNaoDivulgado(String numeroConcurso) {
-        return "Resultado do concurso " + numeroConcurso + " ainda não divulgado.";
+        return "Resultado do concurso " + numeroConcurso + " ainda não divulgado. ";
     }
 }
