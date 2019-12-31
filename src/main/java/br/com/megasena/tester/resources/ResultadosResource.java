@@ -37,7 +37,7 @@ public class ResultadosResource {
         return HTMLWrapper.montarSaidaBoloes(resultadosBoloes);
     }
 
-    @RequestMapping(value = "/", method = RequestMethod.GET)
+    @RequestMapping(value = "/v2", method = RequestMethod.GET)
     @ResponseBody
     public String verificarResultado2() {
         String concurso = "2220";
